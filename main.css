@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rasmfa{
+    z-index: -1;
+    user-select: none;
+}
+.rasmfa_2{
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width:600px){
+    .background{
+        padding: 20px!important;
+    }
+}
+.background{
+    padding: 160px;
+    background-image: url(./06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: inherit;
+}
+.ul_1{
+    margin-top: 20px;
+    text-align: center;
+}
+.li_1{
+    display: inline-block;
+}
+.rasmga{
+    width: 1005%!important;
+}
